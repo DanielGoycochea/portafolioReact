@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Menu from './components/SideBar';
-import Header from './components/Header'
+import Header from './components/Header';
+import Information from './components/Information'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Menu pageWrapId={"page-wrap"} outerContainer={"App"} />
       <div className="page-wrap">
       <Header/>  
+      <Information/>
       
 
 
