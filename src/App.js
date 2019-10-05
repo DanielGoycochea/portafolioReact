@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Menu from './components/SideBar';
 import Header from './components/Header';
-import Information from './components/Information'
+import Information from './components/Information';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="page-wrap">
       <Header/>  
       <Information/>
+      <Footer/>
       
 
 
