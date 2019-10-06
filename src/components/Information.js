@@ -45,6 +45,12 @@ const Information = () => {
                 </div>
               </figure>
           </div>
+          <div class="grid-gallery__item">
+              <div>
+                <p>HOLA cOMPADRES AQUI VA FRASE CHIDA</p>
+              </div>
+              
+          </div>
     </div>
   );
 };

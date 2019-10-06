@@ -26,6 +26,11 @@ const Footer = () => {
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </span>
+            <span>
+              <a href="/">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </span>
           </div>
         <div>
           <span >Theme: portfolio by </span> modernthemes.net

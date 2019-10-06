@@ -167,25 +167,42 @@ body{
 
 .grid-gallery__item:nth-child(11n+1) {
   grid-column: span 3;
-  grid-row: span 2;
+  grid-row: span 3;
+  overflow: hidden;
+}
+
+.grid-gallery__item:nth-child(11n+2) {
+  grid-column: span 3;
+  grid-row: span 3;
+  overflow: hidden;
+}
+.grid-gallery__item:nth-child(11n+3) {
+  grid-column: span 3;
+  grid-row: span 3;
   overflow: hidden;
 }
 
 .grid-gallery__item:nth-child(11n+4) {
-  grid-column: span 2;
+  grid-column: span 3;
+  grid-row: span 1;
+  /* overflow: hidden; */
+ 
+}
+.grid-gallery__item:nth-child(11n+5) {
+  grid-column: span 1;
   grid-row: span 1;
   overflow: hidden;
 }
 
 .grid-gallery__item:nth-child(11n+6) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: span 2;
+  grid-row: span 2;
   overflow: hidden;
 }
 
-.grid-gallery__item:nth-child(11n+7) {
+/* .grid-gallery__item:nth-child(11n+7) {
   grid-column: span 1;
-  grid-row: span 2;
+  grid-row: span 1;
   overflow: hidden;
 }
 
@@ -197,7 +214,7 @@ body{
 
 .grid-gallery__item:nth-child(11n+9) {
   grid-row: span 3;
-}
+} */
 
 .grid-gallery__image {
   width: 100%;
@@ -231,15 +248,29 @@ figure{
 }
 
 /* Several different images */
-.bg-1 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567899904/ux-788002_640.jpg);}
-.bg-2 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/wordpress-923188_640.jpg);}
-.bg-3 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/lean-startup-2230822_640.jpg);}
-.bg-4 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900349/seo-758264_640.jpg);}
-.bg-5 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/cms-265128_640.jpg);}
-.bg-6 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900604/ux-789162_640.jpg);}
+.bg-1 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567899904/ux-788002_640.jpg);
+}
+.bg-2 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/wordpress-923188_640.jpg);
+}
+.bg-3 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/lean-startup-2230822_640.jpg);}
+
+.bg-4 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900349/seo-758264_640.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bg-5 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900348/cms-265128_640.jpg);
+}
+.bg-6 {
+  background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900604/ux-789162_640.jpg);
+}
 
 
-/* a {
+.grid-gallery__item a {
   display: none;
   color: #ffffff !important;
   text-align: center;
@@ -252,7 +283,7 @@ figure{
   height: 50px;
   cursor: pointer;
   text-decoration: none;
-} */
+}
 
 .parent:hover .child, .parent:focus .child {
     transform: scale(1.2);
@@ -287,43 +318,13 @@ footer
 
 }
 
-.fa-facebook-f{
+i{
   font-size: 45px;
   margin-right: 40px;
   color: #ccc;
-}
-.fa-facebook-f:hover {
+ }
+i:hover {
   color: #33384a;
-}
-
-.fa-github{
-  font-size: 45px;
-  margin-right: 40px;
-  color: #ccc;
-
-}
-.fa-github:hover{
-  color: #33384a
-}
-
-.fa-instagram{
-  font-size: 45px;
-  margin-right: 40px;
-  color: #ccc;
-
-}
-.fa-instagram:hover{
-  color: #33384a
-}
-
-.fa-linkedin-in{
-  font-size: 45px;
-  margin-right: 40px;
-  color: #ccc;
-
-}
-.fa-linkedin-in:hover{
-  color:#33384a
 }
 
 span{
