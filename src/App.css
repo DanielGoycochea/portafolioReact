@@ -239,7 +239,7 @@ figure{
 .bg-6 {background-image: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1567900604/ux-789162_640.jpg);}
 
 
-a {
+/* a {
   display: none;
   color: #ffffff !important;
   text-align: center;
@@ -252,7 +252,7 @@ a {
   height: 50px;
   cursor: pointer;
   text-decoration: none;
-}
+} */
 
 .parent:hover .child, .parent:focus .child {
     transform: scale(1.2);
@@ -278,40 +278,54 @@ a {
 }
 footer
 .container-footer{
-  height: 200px;
+  
   display: flex;
   justify-content:space-around;
+  padding: 2rem;
   
+  align-items: center;
 
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-  position: relative;
-  height: auto;
+.fa-facebook-f{
+  font-size: 45px;
+  margin-right: 40px;
+  color: #ccc;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+.fa-facebook-f:hover {
+  color: #33384a;
 }
 
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;}
-  
-  UL{
-    display: flex;
-    justify-content:space-around;
-  }
+.fa-github{
+  font-size: 45px;
+  margin-right: 40px;
+  color: #ccc;
 
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
+}
+.fa-github:hover{
+  color: #33384a
+}
+
+.fa-instagram{
+  font-size: 45px;
+  margin-right: 40px;
+  color: #ccc;
+
+}
+.fa-instagram:hover{
+  color: #33384a
+}
+
+.fa-linkedin-in{
+  font-size: 45px;
+  margin-right: 40px;
+  color: #ccc;
+
+}
+.fa-linkedin-in:hover{
+  color:#33384a
+}
+
+span{
+  color: #ccc;
+}

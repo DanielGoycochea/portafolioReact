@@ -5,10 +5,31 @@ const Footer = () => {
     <footer>
       <div className="container-footer">
         <div>
-          hOLLE
+         
+            <span >
+              <a href="/">
+                <i className="fab fa-github"></i>
+              </a>
+            </span>
+            <span>
+              <a href="/">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </span>
+            <span>
+              <a href="/">
+                <i className="fab fa-instagram"></i>
+              </a>
+            </span>
+            <span>
+              <a href="/">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </span>
+          </div>
+        <div>
+          <span >Theme: portfolio by </span> modernthemes.net
         </div>
-        <div>Hello 2</div>
-
       </div>
       
     </footer>
